@@ -1,0 +1,104 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.bg-dark{
+  background-color: #03263F!important;
+}
+@media (min-width:768px){
+.jumbotron{
+  margin-bottom: 0;
+padding: 4rem 2rem!important;
+}
+h1{
+  font-weight: 700;
+  font-size: 3rem !important;
+}
+
+ .btn-oranged{
+   background-color: #df3227;
+   color:#fff;
+   border-radius: 0;
+   font-size: 0.9rem;
+ }
+.card-img-top{
+  width: 50%;
+  float: none;
+  margin: 0 auto;
+  height: 65px;
+}
+.card-header{
+  text-align: center;
+  border: none;
+}
+.card{
+  border:none !important;
+}
+.card-body{
+  padding: 0!important
+}
+.card-body p{
+  height: 70px;
+}
+.bordered{
+  border-right: 1px solid #ccc!important;
+}
+.pad-4{
+  padding-top: 1.5rem!important;
+}
+}
+/********************** RESPONSIVENESS****************/
+@media (max-width:425px){
+  h1{
+    font-size: 1.3rem !important;
+    font-weight: bold;
+  }
+  .bordered{
+    border: none!important;
+    border-bottom: 1px solid #fff!important;
+        padding: 0 15px 0 0;
+  }
+  .card{
+    display: table;
+    border: none;
+    height: 172px;
+  }
+  .card-header{
+    float: left;
+    width: 35%;
+    margin-top: 10%;
+    border: none;
+      padding: 0;
+  }
+  .card-img-top{
+    width: 100%;
+    height: 70px;
+  }
+  .card-body{
+    float: right;
+    width: 65%;
+   padding: 20px 0;
+  }
+  .card-body p{
+    font-weight: normal;
+    font-size: 0.7rem;
+    text-align: justify !important;
+    margin-bottom: 0!important;
+  }
+  .btn-block{
+    background-color: transparent;
+    color: #ffc107;
+    border: none;
+    width: auto;
+    padding-left: 0;
+    font-size: 0.8rem;
+  }
+  .jumbotron {
+    padding: 2rem 1rem 0 1rem;
+    margin-bottom: 0;
+    background-color: #e9ecef;
+    border-radius: 0;
+}
+.pad-4{
+  padding-top: 0rem!important;
+}
+}
